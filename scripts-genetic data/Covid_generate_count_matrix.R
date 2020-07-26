@@ -17,8 +17,8 @@ ens_94$gene_name <- gene$gene_name
 filtered <-ens_94[grep("ENST", ens_94$tx.tx_id),] #only get the ones starting with ENS
 
 ############# tximport covid ###########
-clin <-fread("/Users/smasarone/Documents/kallisto/output_covid/sorted_folders_covid.txt")
-dir <-file.path("/Users/smasarone/Documents/kallisto/output_covid")
+clin <-fread("/Users/Documents/kallisto/output_gen_data/sorted_folders_covid.txt")
+dir <-file.path("/Users/Documents/kallisto/output_gen_data")
 samples <- read.table(file.path(dir, "sorted_folders_covid.txt"), header = TRUE)
 files <-file.path(dir, "output", samples$run, "abundance.tsv")
 names(files) <-clin$run 
