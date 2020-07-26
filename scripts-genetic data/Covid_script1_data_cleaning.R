@@ -5,9 +5,9 @@ library(bioplotr)
 library(tidyverse)
 
 #load data
-object<-readRDS('/Users/smasarone/Documents/Covid analysis/output_covid/counts_covid_data/covid_counts_length_abundance.rds')
+object<-readRDS('/Users/smasarone/Documents/analysis/output_gen_data/counts_data/counts_length_abundance.rds')
 counts <- object$counts
-clin <-fread('/Users/smasarone/Documents/Covid analysis/Data/clin_covid_50samples.csv')%>% as.data.frame()
+clin <-fread('/Users/smasarone/Documents/analysis/Data/samples.csv')%>% as.data.frame()
 rownames(clin)<- clin$SampleID
 sorted_clin<-clin[order(as.numeric(gsub("[^0-9]", "", row.names(clin)))),] #sort clin dataset as matrix
 
