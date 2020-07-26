@@ -1,4 +1,4 @@
-## Data Science 📊👩🏻‍💻
+## Scripts and documents from various projects 📊👩🏻‍💻
 This repository stores example scripts as well as documents used for the Data Science and Bioinformatics Series in DJP Lab
 
 - `kallisto` documentation is in a dedicated directory/ [website](https://saramasarone.github.io/Running-kallisto-on-Apocrita/)  
