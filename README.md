@@ -1,5 +1,5 @@
 ## Scripts and documents from various projects 📊👩🏻‍💻
-This repository stores example scripts as well as documents used for the Data Science and Bioinformatics Series in DJP Lab
+This repository stores example scripts as well as documents used for the Data Science and Bioinformatics Series in DJP Lab - QMUL
 
 
 - `kallisto` documentation is in a dedicated directory/ check out this [website](https://saramasarone.github.io/Running-kallisto-on-Apocrita/)  
