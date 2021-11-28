@@ -1,4 +1,5 @@
 ## Scripts and documents from various projects 📊👩🏻‍💻
+(to be updated soon...)
 This repository stores example scripts as well as documents used for the Data Science and Bioinformatics Series in DJP Lab - QMUL
 
 
